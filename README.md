@@ -61,7 +61,7 @@ setx PATH "%PATH%;C:\Program Files\wkhtmltopdf\bin\"
 
 #### ✅ Manual Path in Script
 
-If needed, set path manually in `generate_pdf.py`:
+If needed, set path manually in `web2pdf.py`:
 
 ```python
 config = pdfkit.configuration(wkhtmltopdf=r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
@@ -73,7 +73,7 @@ config = pdfkit.configuration(wkhtmltopdf=r"C:\Program Files\wkhtmltopdf\bin\wkh
 
 ```
 web2pdf/
-├── generate_pdf.py         # Main script
+├── web2pdf.py         # Main script
 ├── urls.txt                # List of webpage URLs
 ├── README.md               # Project documentation
 ├── LICENSE                 # MIT License
@@ -89,7 +89,7 @@ web2pdf/
 2. Run the script:
 
 ```bash
-python generate_pdf.py
+python web2pdf.py
 ```
 
 3. Output:

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # web2pdf
 Web2PDF: Convert URLs to PDF with Dead Link Handling  Effortlessly convert a list of webpage URLs into a single, well-organized PDF. Includes automatic dead link detection, logging, and a dynamic Table of Contents.
 =======
@@ -137,4 +136,3 @@ Pull requests are welcome! For major changes, open an issue first to discuss wha
 ## 📬 Contact
 
 For questions or collaborations, reach out via [GitHub Issues](https://github.com/phuchungbhutia/web2pdf/issues).
->>>>>>> ceab38b (Initial commit with PDF generator and setup)
